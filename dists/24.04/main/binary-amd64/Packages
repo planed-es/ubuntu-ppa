@@ -1,0 +1,600 @@
+Package: build2
+Version: 0.17.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: gcc,g++
+Filename: ./pool/build2_0.17.0-24.04_amd64.deb
+Size: 9030586
+MD5sum: 48a8d345d20aa69bff62df089feb6077
+SHA1: c7c46b51e6aeb164ab568f96be30190ad4108929
+SHA256: 12f85dff5b6cdd40a89d676584cd83e8b914ab6027a1bdcc20cd995c6cb6010f
+Description: open source (MIT) cross-platform build toolchain
+
+Package: crails
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libboost-program-options1.83.0,libcrails,libcrails-cli,libcrails-templates,libcrails-random,libcrails-semantics,libcrails-readfile
+Filename: ./pool/crails_2.0.0-24.04_amd64.deb
+Size: 663050
+MD5sum: b0b23ac7d4bc6e017161e1ebc9b61e5e
+SHA1: 04cb0e4465eec759497fd2b94e96532449afc1ce
+SHA256: 01520576eede3c705db615e37086eddaa85a39ba55df0594f66073b6cd2a34b5
+Description: PlanED provided package
+
+Package: crails-backup
+Version: 1.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libboost-program-options1.83.0,libcrails-cli (>= 2.0.0),libcrails-logger (>= 2.0.0),libcrails-readfile (>= 2.0.0),libcrails-database-url (>= 2.0.0),libcrails-crontab (>= 2.0.0)
+Filename: ./pool/crails-backup_1.0.0-24.04_amd64.deb
+Size: 192984
+MD5sum: d00b953a8284991d4810e0b9b87de368
+SHA1: 04a970fca609c9f4b2dc876f269a12996d122184
+SHA256: db2b3e4eba77870a66433d60cc9b0a3e743b9e282f5c55f785d188ea054c1a46
+Description: PlanED provided package
+
+Package: crails-deploy
+Version: 1.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libboost-program-options1.83.0,libcrails,libcrails-cli,libcrails-logger,libcrails-readfile
+Filename: ./pool/crails-deploy_1.0.0-24.04_amd64.deb
+Size: 89970
+MD5sum: 9f7dff2a46cb0b8a9c0040b19ec1360a
+SHA1: 09c0b44219e11fd3b6497c914a5c101c560c1918
+SHA256: af01244a9e25cfd35e36bca4f3f1e3ff28123167b4c80461866d3811a413a076
+Description: PlanED provided package
+
+Package: hostie-cli
+Version: 0.1.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,curl,libboost-program-options1.83.0,libcrails-encrypt (>= 2.0.0),libcrails-cli (>= 2.0.0),libcrails-logger (>= 2.0.0),libcrails-random (>= 2.0.0),libcrails-readfile (>= 2.0.0),libcrails-database-url (>= 2.0.0)
+Filename: ./pool/hostie-cli_0.1.0-24.04_amd64.deb
+Size: 364338
+MD5sum: 6f3a8796bf2098c9e9306ca86738aedb
+SHA1: 32c589ecd6112b23a68f5b6ad41bec9034157788
+SHA256: 1b6def0217df998e5939bd8c436b7b38feab3ea7e60ce61f686d1ea38c0b857b
+Description: PlanED provided package
+
+Package: libbacktrace
+Version: 1.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6
+Filename: ./pool/libbacktrace_1.0.0-24.04_amd64.deb
+Size: 9362
+MD5sum: 64c31e403924d25bd8595aef9881843c
+SHA1: 064e65fc646e112ba6d0089989b79d18e73fa015
+SHA256: dbb7136a4afe66b4c7fa54595f5aaadc91df4241a3470404a9636b17f7ca451c
+Description: PlanED provided package
+
+Package: libcrails
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libbacktrace,libboost-date-time1.83.0,libboost-program-options1.83.0,libcrails,libcrails-design-patterns,libcrails-logger,libcrails-semantics,libcrails-readfile
+Filename: ./pool/libcrails_2.0.0-24.04_amd64.deb
+Size: 3532552
+MD5sum: 539ed2197459e9844769ebf4fbe5e804
+SHA1: 3a8d1387458f85a45fa09fd00a72101ee54c8173
+SHA256: ac134906858511a22c5ab0eb3842d7327c91156b410440719bf3272de9868e0b
+Description: PlanED provided package
+
+Package: libcrails-action
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-router,libcrails-controllers
+Filename: ./pool/libcrails-action_2.0.0-24.04_amd64.deb
+Size: 118038
+MD5sum: 58dc2f7a566f4358d0e8ed68dc191386
+SHA1: f7a068ca4c13dfd9b39ef89189c122375604c501
+SHA256: 31a1fd3dfc9b4ba46748a0a379c175751fc2f9b2472052ec8c8da8d5977abb7f
+Description: PlanED provided package
+
+Package: libcrails-archive
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-logger
+Filename: ./pool/libcrails-archive_2.0.0-24.04_amd64.deb
+Size: 184262
+MD5sum: ca1a7cb84ec10bc23a5cd6e5d70663ca
+SHA1: b03fe4a39ff945fb41fda2b6ad5af163061a91f6
+SHA256: 72ce7ba85e243b804374f54da6bafe45d1b41bd421926103555743328c003695
+Description: PlanED provided package
+
+Package: libcrails-attachment
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-random,libcrails-semantics
+Filename: ./pool/libcrails-attachment_2.0.0-24.04_amd64.deb
+Size: 48822
+MD5sum: 1122c606d114c133b4a21d4b80efc98d
+SHA1: 9625399dbb099ca1a759fbe1f894dc2538ded3fb
+SHA256: 80e8e05bfa81ad2a4189eec7c2ecabbd7121049baee3983bd385de4283207c6d
+Description: PlanED provided package
+
+Package: libcrails-captcha
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-http-client,libcrails-logger,libcrails-readfile
+Filename: ./pool/libcrails-captcha_2.0.0-24.04_amd64.deb
+Size: 530
+MD5sum: 241554748aa79520ec730246bdea777a
+SHA1: 3b2d149d23722a59415fc110cac3991b7f0b24ea
+SHA256: 441c0d6a5beb10dbd2dad7bf3d0d66c90fa8718cacb6db5e55123645c0e579f6
+Description: PlanED provided package
+
+Package: libcrails-cli
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libboost-program-options1.83.0,libcrails,libcrails-semantics,libcrails-readfile
+Filename: ./pool/libcrails-cli_2.0.0-24.04_amd64.deb
+Size: 445684
+MD5sum: 9a88db7f778d752d2fcdbdbcf1d474bb
+SHA1: 25799683395b721b19822e3b06c7a5042b77cda6
+SHA256: bf00ab19b514592b29eccd29272b4975135b4dbc3f951a4dab27120b0cf2d85c
+Description: PlanED provided package
+
+Package: libcrails-controllers
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-random,libcrails-semantics
+Filename: ./pool/libcrails-controllers_2.0.0-24.04_amd64.deb
+Size: 142622
+MD5sum: 7343592649df26c02f38f787601067d3
+SHA1: 7990b4542d8efccf002247b81b384971586c53bc
+SHA256: 9b7bf2dec5c2499ed84ca01f7a7cdcd0407c4a8816e147bede077dbf6992619b
+Description: PlanED provided package
+
+Package: libcrails-cookies
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-encrypt
+Filename: ./pool/libcrails-cookies_2.0.0-24.04_amd64.deb
+Size: 71264
+MD5sum: ea6c5a9e5ed9f165e2ce4ae99c9126bc
+SHA1: 68e0d39d028ea4a85251a9545db829aaabffacaa
+SHA256: e7866ea04704e7adb02cb4946ddd6854f93865e2502b82059b547ed8e4508cc2
+Description: PlanED provided package
+
+Package: libcrails-crontab
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6
+Filename: ./pool/libcrails-crontab_2.0.0-24.04_amd64.deb
+Size: 285384
+MD5sum: 93fe900957e7fa26655ad569b2e3024e
+SHA1: 9dbd408e381a75786d420728aa0c82a34123258e
+SHA256: 53e26bb185d647e6fbca2a0d0b755e416d6e7515f6d660350fc39328b0a32f42
+Description: PlanED provided package
+
+Package: libcrails-crud
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-paginator
+Filename: ./pool/libcrails-crud_2.0.0-24.04_amd64.deb
+Size: 512
+MD5sum: 8d85a1f49b0b8a2ea833744d74f04d6c
+SHA1: 0ee8f439767b99ee4f7cac7ae3123bab2b88231d
+SHA256: b3faffc8a2b7247f66d1013aefcc9a67d24f776d5cdd11017969e2e4d5181be2
+Description: PlanED provided package
+
+Package: libcrails-database-url
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6
+Filename: ./pool/libcrails-database-url_2.0.0-24.04_amd64.deb
+Size: 16208
+MD5sum: 3292d7fb4d4d028578e1170fcc45761d
+SHA1: 0229cec23ee9a1aec2d9172f22391c551bf8e7b7
+SHA256: a0055146b3a2fded67869c5b4264dbca065b9cd2a573da1337bf5db0278a7027
+Description: PlanED provided package
+
+Package: libcrails-databases
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-design-patterns,libcrails-database-url
+Filename: ./pool/libcrails-databases_2.0.0-24.04_amd64.deb
+Size: 33186
+MD5sum: 50ae189fc2f38704a2a72c0b43d96ef1
+SHA1: 1ffc063951f217767548514f61397e53a83ef88a
+SHA256: 42bf375ba8f53941cf81d9a51ef13fb93ba75f48dd8ccfd5f3972164a1827ec2
+Description: PlanED provided package
+
+Package: libcrails-design-patterns
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libbacktrace
+Filename: ./pool/libcrails-design-patterns_2.0.0-24.04_amd64.deb
+Size: 516
+MD5sum: b78b4378e25cabde50ff0a5c66a994eb
+SHA1: 8379e8e83b2e7b9202beaf61cd874a6591693dd5
+SHA256: 68f8efab3c341251ab52ef554149e3f0765ab2984855b9e56dd14f5ad8248ee9
+Description: PlanED provided package
+
+Package: libcrails-encrypt
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,openssl,libbacktrace,libcrails,libcrails-semantics
+Filename: ./pool/libcrails-encrypt_2.0.0-24.04_amd64.deb
+Size: 39984
+MD5sum: b41a31644f943bab9d02e38ded79c1ba
+SHA1: 07c457127c6b896dc3db3d74bbfb004dbd4d06f8
+SHA256: b42d2b78a6ded5dee5f8a308cff59c6500dbe6b2d922f1a39d66d68f25adca31
+Description: PlanED provided package
+
+Package: libcrails-fonticons
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-design-patterns
+Filename: ./pool/libcrails-fonticons_2.0.0-24.04_amd64.deb
+Size: 72598
+MD5sum: c41d6dc0e881e8754e2ea58782d71d67
+SHA1: 541836cf0df0a207d607afc2024f27cccd18e5cc
+SHA256: c1afb938627f69c2990a0edb43a6df3f8f4c0267a52b5701c75e60a8f4db0b9b
+Description: PlanED provided package
+
+Package: libcrails-form-parser
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails
+Filename: ./pool/libcrails-form-parser_2.0.0-24.04_amd64.deb
+Size: 138146
+MD5sum: 7af574c3a9e0ee6856ef130cc6331f03
+SHA1: c613f34f76274182777aec3e892f193eee4f040e
+SHA256: 7681e5053b8d04a0d57240e4577bb6a9c86e0844e5b55854cb50e755df7a5cf0
+Description: PlanED provided package
+
+Package: libcrails-html-views
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-templates
+Filename: ./pool/libcrails-html-views_2.0.0-24.04_amd64.deb
+Size: 236074
+MD5sum: 538928b698e7052e3c7789d05be29399
+SHA1: 079c50d5cf897ca00e839c42b085246e01139f27
+SHA256: 3efd24ab3678df16dc97c187f832ba964f00e4c919541f74e6f518b3d0c5777d
+Description: PlanED provided package
+
+Package: libcrails-http-client
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-logger
+Filename: ./pool/libcrails-http-client_2.0.0-24.04_amd64.deb
+Size: 1759814
+MD5sum: 712c6fe3f85d7afacdecd3ce3b6ca544
+SHA1: 01d1cfc5b05f2db3d6e95003be480147fc315da6
+SHA256: bbe3dd622fb0090e7eb51b7135c795a7ad03289767007c1337daddf6bc5dc0fe
+Description: PlanED provided package
+
+Package: libcrails-i18n
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-controllers,libcrails-design-patterns,libcrails-semantics
+Filename: ./pool/libcrails-i18n_2.0.0-24.04_amd64.deb
+Size: 120382
+MD5sum: 4abe586eda2fc8b94c9b12833690fd96
+SHA1: ca1125cf96f1adf871b59cf6f6dba0d0188ecb7a
+SHA256: 6436005e589da8f9b2f0b46a86a3c7dc78ff888112e96b6521931e91140dd544
+Description: PlanED provided package
+
+Package: libcrails-image
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-attachment
+Filename: ./pool/libcrails-image_2.0.0-24.04_amd64.deb
+Size: 514
+MD5sum: ddca61bd0983a097efcbee00149460d3
+SHA1: 4b4ab66a189337b743517598e4e4e55eeb296aef
+SHA256: e7a024565c6c3cfb056690ce65de7e010dfd11a59869e159d449d6b0c51b06af
+Description: PlanED provided package
+
+Package: libcrails-json-parser
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails
+Filename: ./pool/libcrails-json-parser_2.0.0-24.04_amd64.deb
+Size: 154960
+MD5sum: 31723a36e8538d4234d69715f78c63c9
+SHA1: 660fc505097d427329bd72be91c85ee2c4e62d96
+SHA256: b9479ed627a369d81584d4762ac09e9db73b3d3a2bf379d7c75ac6640d64b171
+Description: PlanED provided package
+
+Package: libcrails-json-views
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-templates,libcrails-semantics
+Filename: ./pool/libcrails-json-views_2.0.0-24.04_amd64.deb
+Size: 31410
+MD5sum: 1891ded421c505d09dc4ec159c2ef6c2
+SHA1: 4dc55d13b36928e73417d9ab6e9de01494e9603f
+SHA256: bcb22c5596054046e6a573b6eb2e4967ce1ad3c46fb157d1c51c68291c550bf7
+Description: PlanED provided package
+
+Package: libcrails-logger
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libboost-date-time1.83.0
+Filename: ./pool/libcrails-logger_2.0.0-24.04_amd64.deb
+Size: 48800
+MD5sum: 6474354a257af0dcf127b2d59a5bd89d
+SHA1: 7d38faf4a109be66568593a68fa5484e79f89c56
+SHA256: 813b0a80e86d901da5bb93b0d0bc54411a22cc0dea9b21ac538ebf128ce38c32
+Description: PlanED provided package
+
+Package: libcrails-mail
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libbacktrace,libcrails,libcrails-controllers,libcrails-encrypt,libcrails-http-client,libcrails-random,libcrails-semantics
+Filename: ./pool/libcrails-mail_2.0.0-24.04_amd64.deb
+Size: 364646
+MD5sum: 3b286a40c07cdbc9a0226446c00fb0d3
+SHA1: 96642d6e577ffe7496ec26fdb5ad5ee7f9fb11b9
+SHA256: f86a05a72483f8026a49c191f9700eeaf298d4d4bb840d3f693f6d37501c3a2c
+Description: PlanED provided package
+
+Package: libcrails-multimedia
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-attachment,libcrails-logger
+Filename: ./pool/libcrails-multimedia_2.0.0-24.04_amd64.deb
+Size: 122316
+MD5sum: 6d31c5cfb181882964032f20e7f48161
+SHA1: 6bf2638b6ce3bd4a9bfb69e15693b6852a68703f
+SHA256: 8afead5b9c8b4e82f2f12be45faeec8bea44cdcd89138f63cfdff2a2f84e5b9a
+Description: PlanED provided package
+
+Package: libcrails-multipart-parser
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-random,libcrails-semantics
+Filename: ./pool/libcrails-multipart-parser_2.0.0-24.04_amd64.deb
+Size: 257988
+MD5sum: 74a9c6c302a1c2e2ffa4096f41ecc7b1
+SHA1: 6d36168f2b8f89d1089d32b27f6baa04c0cb637d
+SHA256: 1bccd82dca3fd38b81a99d2362b17326e4324f974c97cd29977696dda07538b3
+Description: PlanED provided package
+
+Package: libcrails-oauth
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-controllers,libcrails-signin,libcrails-semantics
+Filename: ./pool/libcrails-oauth_2.0.0-24.04_amd64.deb
+Size: 241410
+MD5sum: 3e78b94f7224b72cb532e3fb480a8a9e
+SHA1: a36ebe90f426cee34fbe3bbea4fabaed2598ad68
+SHA256: d2bde7578720a78f8967472b2d02ede431dd08aa72a671681e069454e0479386
+Description: PlanED provided package
+
+Package: libcrails-paginator
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails
+Filename: ./pool/libcrails-paginator_2.0.0-24.04_amd64.deb
+Size: 49270
+MD5sum: a4f20218c846a58ab654a3a871c67804
+SHA1: 3d6d04f58052c08af58fdf0a9d9311279d2debb5
+SHA256: 55db6729f9399996a559cd79ab7bb55e2415e34ad9d5f5576cd24d16e497dbae
+Description: PlanED provided package
+
+Package: libcrails-random
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6
+Filename: ./pool/libcrails-random_2.0.0-24.04_amd64.deb
+Size: 11368
+MD5sum: 9f4b6c8c36d3024085467632eb0cc2d5
+SHA1: 322a6353b84fd886dd2e58c977c2f33f2c5ab8c9
+SHA256: 8b8d48a3c6e6cbadf9aeb0324a0c2a67ea2b2e98e992200e3f02b4a23e602c58
+Description: PlanED provided package
+
+Package: libcrails-readfile
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6
+Filename: ./pool/libcrails-readfile_2.0.0-24.04_amd64.deb
+Size: 7832
+MD5sum: 2dd3569d3e14e939cc073598a38c5462
+SHA1: c48c625653c13daae3fada2dc9b24d2486b56ff7
+SHA256: 35d256ee4a03885466805003128dc0116107abe554a867e66857f4439d39c4f0
+Description: PlanED provided package
+
+Package: libcrails-router
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-semantics
+Filename: ./pool/libcrails-router_2.0.0-24.04_amd64.deb
+Size: 514
+MD5sum: 315adaebbabbf40449ccea08c9723015
+SHA1: 796920570425841ff27307829f6efba876343921
+SHA256: 2f8c0f4fd57231fbc2e71ca085c49f3cbe58505f9f5578cd99fa50497c5a4e5f
+Description: PlanED provided package
+
+Package: libcrails-rss-views
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-templates
+Filename: ./pool/libcrails-rss-views_2.0.0-24.04_amd64.deb
+Size: 26802
+MD5sum: 137f9e1a6958d6e8a20e9e922142bb3e
+SHA1: 04c0d9be4d84ae1fabc9c123b8e7d5072d3c1868
+SHA256: 04bf29a93ceea9dc8784cdc0520cf392e166c668a48392db285db2da21d9d9fd
+Description: PlanED provided package
+
+Package: libcrails-semantics
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6
+Filename: ./pool/libcrails-semantics_2.0.0-24.04_amd64.deb
+Size: 53720
+MD5sum: 38fe3f47b5a23821854f8fed16e63452
+SHA1: bd9a178a3d812ba23398197b98fd4134edaa81ed
+SHA256: fe1f66a8af61678fcdf7440dc13f83792f569ef351e790eb737ffcce9ea339a5
+Description: PlanED provided package
+
+Package: libcrails-sentry
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libbacktrace,libcrails,libcrails-design-patterns,libcrails-logger
+Filename: ./pool/libcrails-sentry_2.0.0-24.04_amd64.deb
+Size: 89346
+MD5sum: 1488bb5ea0f9e3c06f5bad6b6abedbb4
+SHA1: d2cd52ff9e64b001a83dfc74a9b2c733e4149497
+SHA256: 41ac2185e121f73afc126c042f60f5a399813a8d7e5636394fb832ee4c86164c
+Description: PlanED provided package
+
+Package: libcrails-sidekix
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-random,libcrails-readfile
+Filename: ./pool/libcrails-sidekix_2.0.0-24.04_amd64.deb
+Size: 76150
+MD5sum: 79d9cb6f05a393deec6cf6095d6b706b
+SHA1: 46b2e72752a5baf82764450b235410249ba30e5d
+SHA256: 7657eb90fcdf9f871b14f70712d88220509a060b1d204ad695619a592fbbb052
+Description: PlanED provided package
+
+Package: libcrails-signin
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-controllers,libcrails-encrypt,libcrails-random,libcrails-semantics
+Filename: ./pool/libcrails-signin_2.0.0-24.04_amd64.deb
+Size: 10896
+MD5sum: 767295663eced2c32472f77165bd6ab4
+SHA1: c16aca185201f1b1943b293f437b2f46eae88071
+SHA256: 69a8d92bf0fff1f735e951108676e1118968e1b3c34545d18b4d03b8c003295f
+Description: PlanED provided package
+
+Package: libcrails-sync
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-http-client,libcrails-random
+Filename: ./pool/libcrails-sync_2.0.0-24.04_amd64.deb
+Size: 146270
+MD5sum: 43af5b6941011f8ee6f7109bcfcbeb2a
+SHA1: b3f77ba2eda2f9414d17726bf187bf7b35600d56
+SHA256: 97160436b4bd0df9f228223c5e9023b9b30d5508c3413386630dbcc0b478cd71
+Description: PlanED provided package
+
+Package: libcrails-templates
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails
+Filename: ./pool/libcrails-templates_2.0.0-24.04_amd64.deb
+Size: 27664
+MD5sum: b0f6db24b303badf0527c5cb626ad111
+SHA1: e4ae2a1b78c3df76b4a5ddf76a62b5458f9fb3b8
+SHA256: 9537e70c6e29f739af04a57456236e257dfca19ad271f611044fbd78ace58513
+Description: PlanED provided package
+
+Package: libcrails-tests
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails,libcrails-action
+Filename: ./pool/libcrails-tests_2.0.0-24.04_amd64.deb
+Size: 99344
+MD5sum: 1d1efb5383ef2a92eda7a5774bbfb641
+SHA1: 62f227a8c0fab669da832e7c18d42bb36e6608af
+SHA256: 9442ba95e6fb42dd08a0d6d694e03b7d58841a8386e678d9ee21a3581c3b2b7d
+Description: PlanED provided package
+
+Package: libcrails-url-parser
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails
+Filename: ./pool/libcrails-url-parser_2.0.0-24.04_amd64.deb
+Size: 82206
+MD5sum: 0878d2cf6d141ec7c8103883f3229ab4
+SHA1: 03c5f171e8ff15c0a928af278d9825fbfdecf6ea
+SHA256: 9908af791b99cbd5e893d621215b054d9dbbfff373b4cfee1fc94f72c87c3f43
+Description: PlanED provided package
+
+Package: libcrails-xml-parser
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libcrails
+Filename: ./pool/libcrails-xml-parser_2.0.0-24.04_amd64.deb
+Size: 180310
+MD5sum: 2554354170783f858109f4bb57383443
+SHA1: 05ac8147310e7f7e9a223dad651a89827cb1e227
+SHA256: 783e2d43a3dcf4682c376dc1dd19610e2a41e87f69db0cc4b7586f8b04a71a35
+Description: PlanED provided package
+
+Package: libcrails-xmlrpc
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libboost-date-time1.83.0,libcrails,libcrails-controllers,libcrails-http-client
+Filename: ./pool/libcrails-xmlrpc_2.0.0-24.04_amd64.deb
+Size: 142828
+MD5sum: d7e317c019b590bf9ed74dde2d7f68aa
+SHA1: 6adc773fc92483fc9a9bac2725fd2f2baa206c73
+SHA256: 09f593b08115aa416f705168ae79f57005bb679e6a6ea214a3700de251a3cd88
+Description: PlanED provided package
+
+Package: libdatatree
+Version: 2.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libstdc++6,libbacktrace
+Filename: ./pool/libdatatree_2.0.0-24.04_amd64.deb
+Size: 143230
+MD5sum: d80226ae0d146febec71b90e086abc32
+SHA1: 5cf5a9696d5475af6a99bf9d090570c702479268
+SHA256: 30346db73795a7d48cb70b56d1ca2a14bac06df44798433df544a4b3a7a8c6ee
+Description: PlanED provided package
+
+Package: nginx-modsecurity-planed
+Version: 3.0.0
+Architecture: amd64
+Maintainer: PlanED S.L. <michael@planed.es>
+Depends: libcurl4,libgeoip1,liblmdb0,libpcre++0v5,libxml2,libyajl2
+Filename: ./pool/nginx-modsecurity-planed_3.0.0-24.04_amd64.deb
+Size: 37694598
+MD5sum: 48c21c0b8967f2649fc030db2fd866f4
+SHA1: a8df8e82abded519f9567540789b82658aa2e22c
+SHA256: 771b08ba3452dcef6e5b389ebdfd0b9b56c59a6db62f6724cbb66afa41034790
+Description: PlanED setup for modsecurity
+
