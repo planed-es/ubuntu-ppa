@@ -10,3 +10,14 @@ apt-get update
 
 **Supported systems:** Ubuntu 22.04, Ubuntu 24.04
 **Supported archs:** amd64
+
+
+
+## Note for Ubuntu 22.04
+
+Some packages need gcc>=12, so you'll have to do the following:
+
+```sh
+add-apt-repository ppa:ubuntu-toolchain-r/test
+apt-get install --only-upgrade libstdc++6
+```
