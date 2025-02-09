@@ -88,10 +88,10 @@ Architecture: amd64
 Maintainer: PlanED S.L. <michael@planed.es>
 Depends: libstdc++6,curl,libboost-program-options1.83.0,libcrails-encrypt,libcrails-cli,libcrails-logger,libcrails-random,libcrails-readfile,libcrails-database-url
 Filename: ./pool/hostie-cli_0.1.0-24.04_amd64.deb
-Size: 382526
-MD5sum: 869d6fe4ef82800a7bb0a04901fed8e8
-SHA1: 5535181c55891aaeb8f346b1696c40ecdf5adaa1
-SHA256: c6c58373d1b7a716ac1f623e91c3d07c2bda2886faafd0667820ce9417ec842e
+Size: 387646
+MD5sum: 4a1db08a7082bb44a91705e872472178
+SHA1: 20df2a25ea985ee26a0e253ce75ccf637a3350b5
+SHA256: 7ad8a948e92f54a9f1669711240ee354a6a79d138430bd815243c50d0624680a
 Description: PlanED provided package
 
 Package: libbacktrace
