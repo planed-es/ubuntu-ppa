@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Thu, 05 Mar 2026 16:02:27 +0000
+MD5Sum:
+ 10e81ec25bf03de786f0e743ec739fb0               38 Release
+ b3c63ef07ee63be2293a3f07efaf875c            43907 main/binary-amd64/Packages
+ 305a3b22c4fefb384938e89c944103d7            11923 main/binary-amd64/Packages.gz
+SHA1:
+ 1964817034662ee3e262f4a8243c0679e3f2963b               38 Release
+ dc4b8a684156b92894e65da83b4839d6ca73fa86            43907 main/binary-amd64/Packages
+ db83dba9bfd71a29d96633bdb54490170c52792b            11923 main/binary-amd64/Packages.gz
+SHA256:
+ 2294dec638bb5b0632afb6eaed9a69db52900649f0b5b0f9ef477e9fa8cc109f               38 Release
+ 3da0a2bc86f2aa421c455b7a9ff559d42e0d4b60578eea0598b85ea1e223be6f            43907 main/binary-amd64/Packages
+ cce1188776d49ff7c3f9b1691593193a7f901edf37d4e1a08cb887c0dac22b1e            11923 main/binary-amd64/Packages.gz
+SHA512:
+ 5c0ddc7ef31408c5f3665b0fd35ed1dd8a4640b6a1374571cfce98bf6fc29db36a1eae374dd1e88ec85ce41f1e975253572c28f93c147343b53ae09afdb0d949               38 Release
+ 2899778f62356fd98e4039a16aaaecaf8c6c95aef9cd5ff151ed4a8caf166c5005a18adb7ff6e45316af23bba8fd988b79e15d7a9124e92c444a934bff8a56f7            43907 main/binary-amd64/Packages
+ 6e6caf22b06152e9165b89b3db16ee60dc6423ee5fde3a41a8dec1cdb9a98a9c1e57fa2f80fcde26c8b530ee49dddde8abf553e8435ff1845c3e0e8bea1552eb            11923 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEn/8swnqcsacMyGjRjBzSUXPNxvkFAmmpqRMSHG1pY2hhZWxA
+cGxhbmVkLmVzAAoJEIwc0lFzzcb5h+cQAInHPrSVudIkz69gtN2dM2OU4a8YNcCC
+wbK63AGr9RB97iQLZVAPW/rC8bjdljxlV4P2ww8Af+dBUCDmv6cBhBHwOqLtuo1/
+VNdoJ+z1kopYm0r0ZukUEBP+TjrUuHH+ynQP41D10UTW+cB1AwHI/HpMNF+Mzcm0
+vcr/D8AnK40h9vOIXBwEQ0kUPfeV+IIWWaSFirkeqKeMCKHXgflG/yftiamL43CX
+Kn8ziHcnbM6ZwFXWjXBpjQ4BUwwsEFtcchmFUzvzYSbf/FrPnnVBcuMJBCY496JG
+0FXTj68ITVCmgSYyH/7KFm3CNn+/GTN3m8Ta3imavC8S99WFzBOZp5uLlnGFMMy9
+/CNFk//av2jMBtgT/8nRL5lcid8FXBXXZ/oGVcLyeDqj7V4fFChxdXilGpxQHIxG
+AI+Ax3A3ZmYhE/nBwXsiXT4zY3Xa7uryHvij0JsMvLlikDnUK2VH0qo56sMsNbXk
+I7Tfaz8ysGU9xQu8oYl0XeRUrZnPIFjY3v7KRIb4wKlEYmyumoyM+zTKDTMkTr7F
+/qvPay+tv+ujYjDeGaF+lU3ip1GReASBT5gTUTuS2UyGvQBsZeUJvS57zVKp6bL7
+CLDKdswm88WQTtX32pYCVVvimvhN3mtasxm2BzZ1KmoXLvm7iEFBj3mv6a3iE9Dy
+e3Xl3P8RGrK8
+=rsvm
+-----END PGP SIGNATURE-----
